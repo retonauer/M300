@@ -10,4 +10,9 @@ Danach kann man den Conainer starten: </br>
 >docker run apache:latest
 >
 ## Container als Backend, Desktop-App als Frontend
-
+Um dieses Ziel zu erreichen habe ich das Beispiel vom Lehrer genommen (OSTicket). </br>
+### Probleme
+Mein Problem bestand darin, dass ich nicht auf die Weboberfläche zugreiffen konnte. Das Problem bestand darin, dass der Port nicht korrekt weitergeleitet wurde, da dieser bereits besetzt war. Ich habe dann andere Ports benutzt und es hat funktioniert.
+### Endprodukt
+Das Endprodukt funktioniert:
+![Ticket](https://www.retonauer.ch/M300/Ticket.jpg)
